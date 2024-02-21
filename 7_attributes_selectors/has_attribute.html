@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [href]{
+            border: 2px solid blue;
+        }
+
+        [target="_blank"]{
+            border: 2px solid hotpink;
+        }
+        
+        [name^="us"]{
+            border: 2px solid coral;
+        }
+
+        [href$="in"]{
+            border: 2px solid lawngreen;
+        }
+
+        [type*="email"]{
+            border: 2px solid royalblue;
+        }
+    </style>
+</head>
+<body>
+    <a href="https:www.google.com">google</a>
+
+    <a href="https:www.google.com">google</a>
+
+    <a href="https:www.google.com" target="_blank">google</a>
+
+    <label for="">username</label>
+    <input type="text" name="username">
+
+    <a href="https:www.amazon.com" target="_blank">amazon</a>
+
+    <label for="">useremail</label>
+    <input type="email" name="useremail">
+</body>
+</html>
