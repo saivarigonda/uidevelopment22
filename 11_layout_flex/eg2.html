@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section, div{
+            /*border:2px solid blue; */
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex: 1;
+            background-color: whitesmoke;
+        }
+
+        div:nth-child(1){
+            flex: 4;
+        }
+
+        body{
+            font-family: arial;
+        }
+
+        .services{
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 3.0;
+        }
+        .logo{
+            color:rgb(198, 13, 44); 
+            font-size: 30px;
+        
+        }
+        .button{
+          background-color: blue;
+          color: white;
+          height: 42px;
+          border-radius: 30px;
+          width:155px; 
+          font-size: 16px; 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="logo">developers</div>
+        <div class="services"><span><a href="">products</a></span></div>
+        <div class="services"><span><a href="">services</a></span></div>
+        <div class="services"><span><a href="">contact</a></span></div>
+        <div class="services"><span><a href="">about us</a></span></div>
+
+        <div>
+            <span><input value="start now" class="button"></span>
+        </div>
+    </section>
+</body>
+</html>
